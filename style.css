@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -7,7 +9,9 @@
 
 .body {
   background: url(./img/fondo.png) center;
+  font-family: "Poppins", sans-serif;
 }
+
 .cabeza {
   background-color: white;
   height: 100px;
@@ -15,6 +19,7 @@
   -webkit-caja-sombra: 0px 10px 10px -1px rgba(0, 0, 0, 0.55);
   -moz-caja-sombra: 0px 10px 10px -1px rgba(0, 0, 0, 0.55);
 }
+
 .nav {
   display: flex;
   flex-direction: row;
@@ -29,9 +34,11 @@
   justify-content: end;
   list-style: none;
 }
+
 .li {
   padding: 50px 40px;
 }
+
 .li:hover {
   background: #ffc84f;
   color: black;
